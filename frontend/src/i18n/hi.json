@@ -1,0 +1,66 @@
+{
+  "common": {
+    "loading": "लोड हो रहा है...",
+    "save": "सेव करें",
+    "cancel": "रद्द करें",
+    "delete": "हटाएं",
+    "edit": "संपादित करें",
+    "add": "जोड़ें",
+    "search": "खोजें",
+    "filter": "फ़िल्टर",
+    "all": "सभी"
+  },
+  "storefront": {
+    "add_to_order": "ऑर्डर में जोड़ें",
+    "checkout": "चेकआउट",
+    "place_order_whatsapp": "WhatsApp पर ऑर्डर करें",
+    "view_product": "प्रोडक्ट देखें",
+    "name": "नाम",
+    "phone": "फोन",
+    "email": "ईमेल",
+    "address": "पता",
+    "pickup": "पिकअप",
+    "delivery": "होम डिलीवरी",
+    "order_placed": "ऑर्डर हो गया!",
+    "track_order": "अपना ऑर्डर ट्रैक करें",
+    "order_summary": "ऑर्डर सारांश",
+    "subtotal": "उप-योग",
+    "shipping": "शिपिंग",
+    "total": "कुल राशि",
+    "free": "मुफ्त",
+    "quantity": "मात्रा",
+    "size": "साइज़",
+    "color": "रंग",
+    "out_of_stock": "स्टॉक में नहीं",
+    "only_left": "सिर्फ {{count}} बचे हैं",
+    "no_products": "अभी कोई प्रोडक्ट नहीं",
+    "whatsapp_note": "आप अगले स्टेप में WhatsApp पर ऑर्डर कन्फर्म करेंगे।"
+  },
+  "tracking": {
+    "order_number": "ऑर्डर नंबर",
+    "status": "स्थिति",
+    "placed": "ऑर्डर किया गया",
+    "confirmed": "कन्फर्म हो गया",
+    "shipped": "शिप हो गया",
+    "delivered": "डिलीवर हो गया",
+    "cancelled": "रद्द हो गया",
+    "chat_whatsapp": "मदद चाहिए? WhatsApp पर बात करें"
+  },
+  "dashboard": {
+    "welcome": "mywabiz में आपका स्वागत है",
+    "orders": "ऑर्डर",
+    "sales": "बिक्री",
+    "visits": "विज़िट",
+    "recent_orders": "हाल के ऑर्डर",
+    "quick_actions": "त्वरित कार्रवाई",
+    "add_product": "प्रोडक्ट जोड़ें",
+    "design_store": "स्टोर डिज़ाइन करें",
+    "share_store": "स्टोर शेयर करें",
+    "upgrade": "अपग्रेड करें"
+  },
+  "auth": {
+    "login": "लॉगिन",
+    "logout": "लॉगआउट",
+    "login_with_google": "Google से जारी रखें"
+  }
+}
