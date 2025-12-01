@@ -1,0 +1,66 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "all": "All"
+  },
+  "storefront": {
+    "add_to_order": "Add to order",
+    "checkout": "Checkout",
+    "place_order_whatsapp": "Place order on WhatsApp",
+    "view_product": "View product",
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "pickup": "Pickup",
+    "delivery": "Delivery",
+    "order_placed": "Order placed!",
+    "track_order": "Track your order",
+    "order_summary": "Order Summary",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "total": "Total",
+    "free": "Free",
+    "quantity": "Quantity",
+    "size": "Size",
+    "color": "Color",
+    "out_of_stock": "Out of stock",
+    "only_left": "Only {{count}} left",
+    "no_products": "No products yet",
+    "whatsapp_note": "You'll confirm this order on WhatsApp in the next step."
+  },
+  "tracking": {
+    "order_number": "Order Number",
+    "status": "Status",
+    "placed": "Placed",
+    "confirmed": "Confirmed",
+    "shipped": "Shipped",
+    "delivered": "Delivered",
+    "cancelled": "Cancelled",
+    "chat_whatsapp": "Need help? Chat on WhatsApp"
+  },
+  "dashboard": {
+    "welcome": "Welcome to mywabiz",
+    "orders": "Orders",
+    "sales": "Sales",
+    "visits": "Visits",
+    "recent_orders": "Recent Orders",
+    "quick_actions": "Quick Actions",
+    "add_product": "Add Product",
+    "design_store": "Design Store",
+    "share_store": "Share Store",
+    "upgrade": "Upgrade"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "login_with_google": "Continue with Google"
+  }
+}

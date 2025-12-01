@@ -1,0 +1,66 @@
+{
+  "common": {
+    "loading": "ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ...",
+    "save": "ਸੇਵ ਕਰੋ",
+    "cancel": "ਰੱਦ ਕਰੋ",
+    "delete": "ਮਿਟਾਓ",
+    "edit": "ਸੰਪਾਦਿਤ ਕਰੋ",
+    "add": "ਜੋੜੋ",
+    "search": "ਖੋਜੋ",
+    "filter": "ਫ਼ਿਲਟਰ",
+    "all": "ਸਾਰੇ"
+  },
+  "storefront": {
+    "add_to_order": "ਆਰਡਰ ਵਿੱਚ ਜੋੜੋ",
+    "checkout": "ਚੈੱਕਆਉਟ",
+    "place_order_whatsapp": "WhatsApp 'ਤੇ ਆਰਡਰ ਕਰੋ",
+    "view_product": "ਪ੍ਰੋਡਕਟ ਦੇਖੋ",
+    "name": "ਨਾਮ",
+    "phone": "ਫੋਨ",
+    "email": "ਈਮੇਲ",
+    "address": "ਪਤਾ",
+    "pickup": "ਪਿਕਅੱਪ",
+    "delivery": "ਡਿਲੀਵਰੀ",
+    "order_placed": "ਆਰਡਰ ਹੋ ਗਿਆ!",
+    "track_order": "ਆਪਣਾ ਆਰਡਰ ਟਰੈਕ ਕਰੋ",
+    "order_summary": "ਆਰਡਰ ਸਾਰ",
+    "subtotal": "ਉਪ-ਕੁੱਲ",
+    "shipping": "ਸ਼ਿਪਿੰਗ",
+    "total": "ਕੁੱਲ",
+    "free": "ਮੁਫ਼ਤ",
+    "quantity": "ਮਾਤਰਾ",
+    "size": "ਸਾਈਜ਼",
+    "color": "ਰੰਗ",
+    "out_of_stock": "ਸਟਾਕ ਵਿੱਚ ਨਹੀਂ",
+    "only_left": "ਸਿਰਫ਼ {{count}} ਬਚੇ",
+    "no_products": "ਹਾਲੇ ਕੋਈ ਪ੍ਰੋਡਕਟ ਨਹੀਂ",
+    "whatsapp_note": "ਤੁਸੀਂ ਅਗਲੇ ਸਟੈਪ ਵਿੱਚ WhatsApp 'ਤੇ ਆਰਡਰ ਕਨਫਰਮ ਕਰੋਗੇ।"
+  },
+  "tracking": {
+    "order_number": "ਆਰਡਰ ਨੰਬਰ",
+    "status": "ਸਥਿਤੀ",
+    "placed": "ਆਰਡਰ ਕੀਤਾ",
+    "confirmed": "ਕਨਫਰਮ ਹੋਇਆ",
+    "shipped": "ਸ਼ਿਪ ਹੋਇਆ",
+    "delivered": "ਡਿਲੀਵਰ ਹੋਇਆ",
+    "cancelled": "ਰੱਦ ਹੋਇਆ",
+    "chat_whatsapp": "ਮਦਦ ਚਾਹੀਦੀ ਹੈ? WhatsApp 'ਤੇ ਗੱਲ ਕਰੋ"
+  },
+  "dashboard": {
+    "welcome": "mywabiz ਵਿੱਚ ਜੀ ਆਇਆਂ ਨੂੰ",
+    "orders": "ਆਰਡਰ",
+    "sales": "ਵਿਕਰੀ",
+    "visits": "ਵਿਜ਼ਿਟ",
+    "recent_orders": "ਹਾਲੀਆ ਆਰਡਰ",
+    "quick_actions": "ਤੇਜ਼ ਕਾਰਵਾਈਆਂ",
+    "add_product": "ਪ੍ਰੋਡਕਟ ਜੋੜੋ",
+    "design_store": "ਸਟੋਰ ਡਿਜ਼ਾਈਨ ਕਰੋ",
+    "share_store": "ਸਟੋਰ ਸ਼ੇਅਰ ਕਰੋ",
+    "upgrade": "ਅੱਪਗ੍ਰੇਡ ਕਰੋ"
+  },
+  "auth": {
+    "login": "ਲੌਗਇਨ",
+    "logout": "ਲੌਗਆਊਟ",
+    "login_with_google": "Google ਨਾਲ ਜਾਰੀ ਰੱਖੋ"
+  }
+}
