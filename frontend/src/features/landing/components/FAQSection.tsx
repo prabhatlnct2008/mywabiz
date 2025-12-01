@@ -1,38 +1,28 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { ChevronDownIcon } from '@heroicons/react/24/outline'
+import Button from '@/components/Button'
 
 const faqs = [
   {
-    question: 'Do I need a website or app?',
-    answer: 'No! mywabiz provides you with a mobile-optimized storefront accessible via a simple link. Your customers can browse and shop without downloading any app. You manage everything from your Google Sheet and receive orders on WhatsApp.',
+    question: 'Do I need a separate website or app?',
+    answer: 'No. mywabiz gives you a store link that works in any browser. Your customers browse there and confirm orders on WhatsApp.',
   },
   {
-    question: 'Can I use this only with WhatsApp?',
-    answer: 'Yes! WhatsApp is at the heart of mywabiz. Customers complete their checkout by sending a pre-filled message to your WhatsApp number. You receive full order details directly in WhatsApp and can manage everything from there.',
+    question: 'Can I keep using my existing WhatsApp number?',
+    answer: 'Yes. All orders come to your existing WhatsApp number as structured messages. No new app is required.',
   },
   {
-    question: 'Can I take Cash on Delivery?',
-    answer: 'Absolutely! mywabiz supports Cash on Delivery (COD) as well as online payment options. You can enable or disable payment methods based on your business needs. Many Delhi merchants prefer starting with COD.',
+    question: 'Which languages do you support?',
+    answer: 'You can show store buttons and system messages in English, Hindi, Punjabi, Gujarati, or Haryanvi. Product names and descriptions stay exactly as you write them.',
   },
   {
-    question: 'Can I change my language later?',
-    answer: 'Yes, you can change your store language anytime from your dashboard. We support Hindi, English, and other regional languages. Your product catalog and customer-facing pages will automatically update to reflect the new language.',
+    question: 'Can I use Cash on Delivery?',
+    answer: 'Yes. You can accept COD, and you can also enable online payments through supported providers if you want to.',
   },
   {
-    question: 'How do I update my products?',
-    answer: 'Simply edit your Google Sheet! When you create your store, we generate a ready-made Google Sheet with columns for product name, price, image, stock, and more. Any changes you make are reflected on your store within minutes.',
-  },
-  {
-    question: 'What happens after the free trial?',
-    answer: 'Your free Starter plan never expires and supports up to 50 products. If you start a trial for Growth or Pro plans, you can continue using those features for 14 days. After the trial, you can choose to upgrade or downgrade to any plan, including staying on the free Starter plan.',
-  },
-  {
-    question: 'Is there a setup fee?',
-    answer: 'No setup fees, ever! The Starter plan is completely free. Paid plans start at ₹299/month with no hidden charges or setup costs. You only pay for the plan you choose.',
-  },
-  {
-    question: 'Can I cancel anytime?',
-    answer: 'Yes, you can cancel your paid plan anytime. Your store will automatically downgrade to the free Starter plan (with 50 product limit). All your data remains safe and accessible.',
+    question: 'How long does setup really take?',
+    answer: 'Most sellers can go from zero to a working store in under 10 minutes, including adding their first products.',
   },
 ]
 
@@ -48,14 +38,14 @@ export default function FAQSection() {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 font-heading mb-4">
-            Frequently Asked Questions
+            Questions you might have.
           </h2>
           <p className="text-lg text-gray-600">
             Everything you need to know about mywabiz
           </p>
         </div>
 
-        <div className="space-y-4">
+        <div className="space-y-4 mb-16">
           {faqs.map((faq, index) => (
             <div
               key={index}
@@ -88,31 +78,22 @@ export default function FAQSection() {
           ))}
         </div>
 
-        {/* Contact Support */}
-        <div className="mt-12 text-center bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl p-8 border border-primary-200">
-          <h3 className="text-xl font-semibold text-gray-900 mb-2">
-            Still have questions?
+        {/* Final CTA Band */}
+        <div className="bg-gradient-to-br from-primary-500 to-primary-600 rounded-2xl p-8 md:p-12 text-center text-white">
+          <h3 className="text-2xl md:text-3xl font-bold font-heading mb-4">
+            Ready to turn your WhatsApp into a real store?
           </h3>
-          <p className="text-gray-600 mb-4">
-            Our team is here to help you get started
+          <p className="text-primary-100 mb-8 max-w-2xl mx-auto">
+            Create your free mywabiz store today, share a single link, and start getting clear orders in the languages your customers love.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="mailto:hello@mywabiz.com"
-              className="text-primary-600 hover:text-primary-700 font-medium hover:underline"
+          <Link to="/login">
+            <Button
+              size="lg"
+              className="bg-white text-primary-600 hover:bg-primary-50 border-none"
             >
-              Email us at hello@mywabiz.com
-            </a>
-            <span className="hidden sm:inline text-gray-400">•</span>
-            <a
-              href="https://wa.me/919999999999"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-primary-600 hover:text-primary-700 font-medium hover:underline"
-            >
-              WhatsApp us at +91 99999 99999
-            </a>
-          </div>
+              Create your free store
+            </Button>
+          </Link>
         </div>
       </div>
     </section>

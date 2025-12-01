@@ -1,29 +1,30 @@
 import {
   PlusCircleIcon,
   TableCellsIcon,
-  ChatBubbleLeftRightIcon
+  ShareIcon,
+  LanguageIcon
 } from '@heroicons/react/24/outline'
 
 const steps = [
   {
     step: '1',
     title: 'Create your store',
-    description: 'Enter store name, WhatsApp number, and language. Get your link instantly.',
+    description: 'Enter your store name, WhatsApp number, and preferred language. mywabiz instantly creates your online store link.',
     icon: PlusCircleIcon,
     color: 'bg-primary-500',
   },
   {
     step: '2',
-    title: 'Add products in Google Sheet',
-    description: 'We create a ready-made sheet. Edit like Excel – Name, Price, Size, Stock.',
+    title: 'Add your products',
+    description: 'Use the ready-made Google Sheet (just like Excel) or add products directly inside mywabiz. Name, price, images, size, colour, stock – everything stays organised.',
     icon: TableCellsIcon,
     color: 'bg-accent-500',
   },
   {
     step: '3',
-    title: 'Share & receive orders on WhatsApp',
-    description: 'Customers browse your catalog, checkout, and you get full order details in WhatsApp.',
-    icon: ChatBubbleLeftRightIcon,
+    title: 'Share and start getting orders',
+    description: 'Share your link on WhatsApp, Instagram, Facebook, or anywhere else. Customers browse your catalog, add items, and place an order. You receive a complete order summary on WhatsApp, ready to confirm.',
+    icon: ShareIcon,
     color: 'bg-primary-600',
   },
 ]
@@ -34,7 +35,7 @@ export default function HowItWorks() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 font-heading mb-4">
-            From zero to WhatsApp store in 3 steps
+            From link to first WhatsApp order in 3 simple steps.
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             No technical skills needed. Get your online store up and running in minutes.
@@ -72,6 +73,25 @@ export default function HowItWorks() {
               </p>
             </div>
           ))}
+        </div>
+
+        {/* Language Callout */}
+        <div className="mt-16 bg-white rounded-2xl p-6 md:p-8 border border-gray-200 shadow-sm max-w-3xl mx-auto">
+          <div className="flex items-start gap-4">
+            <div className="flex-shrink-0">
+              <div className="w-12 h-12 bg-primary-100 rounded-xl flex items-center justify-center">
+                <LanguageIcon className="w-6 h-6 text-primary-600" />
+              </div>
+            </div>
+            <div>
+              <h4 className="text-lg font-semibold text-gray-900 mb-2">
+                Multi-language support
+              </h4>
+              <p className="text-gray-600">
+                Store buttons and system text can appear in English, Hindi, Punjabi, Gujarati, or Haryanvi, so your customers feel at home from the first click.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

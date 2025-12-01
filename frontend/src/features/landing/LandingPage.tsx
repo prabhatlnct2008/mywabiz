@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import LandingHeader from './components/LandingHeader'
 import HeroSection from './components/HeroSection'
+import ProblemSection from './components/ProblemSection'
 import HowItWorks from './components/HowItWorks'
 import TargetAudience from './components/TargetAudience'
 import FeaturesGrid from './components/FeaturesGrid'
@@ -50,6 +51,7 @@ export default function LandingPage() {
       <LandingHeader />
       <main>
         <HeroSection />
+        <ProblemSection />
         <HowItWorks />
         <TargetAudience />
         <FeaturesGrid />
